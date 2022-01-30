@@ -1,0 +1,321 @@
+.col-6{
+    margin:0px auto;
+    text-align:center;
+    margin-top: 20px;
+
+  }
+  body {
+    background-color: #000;
+    background:url("https://dl.dropbox.com/s/0v5ftvv2q0ygc38/1184372.jpg");
+  }
+
+  .sidebar{
+      display:flex;
+      padding:20px;
+    align-items:center
+
+  }
+  nav{
+     flex: 1;
+     text-align:right;
+  }
+  nav ul{
+     display:inline-block;
+     list-style-type: none;
+  }
+
+  .menu-icon{
+     display:none;
+  }
+  .container p{
+     color: #fff;
+  }
+  nav ul li{
+        display:inline-block;
+        font-family: poppins;
+        margin-right: 20px;
+
+
+  }
+
+  .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width:100%;
+   background-color:rgba(204, 198, 198, 0.788);;
+   color: #000;
+   text-align: center;
+   font-size:13pt;
+  line-height:2px;
+   font-family: 'Merienda One', cursive;
+  }
+
+
+  .container1 {
+   width: 100%;
+
+   background-color: #000; background:url("https://dl.dropbox.com/s/0v5ftvv2q0ygc38/1184372.jpg");
+  }
+
+
+  p{
+     font-size:20px;
+     font-family: 'Merienda One', cursive;
+
+     padding:5px;
+  }
+  .row{
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     justify-content: space-around;
+
+  }
+  .skills {
+   text-align: right;
+   padding-bottom:8px;
+   color: white;
+   height:5px;
+
+   border-radius:20px;
+   font-size:10px;
+   }
+   .Projects{
+     max-width:1080px;
+     margin:auto;
+     padding-left:25px;
+     padding-right:25px;
+  }
+  .col-1 img{
+    width:200px;
+  }
+  .col-1{
+  margin:0px auto;
+  text-align:center;
+  flex-basis:30%;
+  min-width:250px;
+  margin-bottom:30px;
+
+  }
+
+  .col-2{
+  margin:0px auto;
+  text-align:center;
+  flex-basis:30%;
+  min-width:250px;
+  margin-bottom:30px;
+
+  }
+  .col-3{
+  margin:0px auto;
+  text-align:center;
+  flex-basis:30%;
+  min-width:250px;
+  margin-bottom:30px;
+
+  }
+  .col-4{
+  margin:0px auto;
+  text-align:center;
+  flex-basis:30%;
+  min-width:250px;
+  margin-bottom:30px;
+
+  }
+  .col-5{
+  margin:0px auto;
+  text-align:center;
+  flex-basis:30%;
+  min-width:250px;
+  margin-bottom:30px;
+
+  }
+  .col-6 img{
+     width: 250px;
+  }
+
+  .col-2 img{
+    width:150px;
+  }
+  .col-3 img{
+    width:250px;
+  }
+  .col-4 img{
+    width:250px;
+  }
+  .col-5 img{
+    width:250px;
+  }
+  .html {width: 80%; background-color:  #1b9e03; color: #fff; }
+  .css {width: 80%; background-color: #1b9e03;}
+  .js {width: 45%; background-color: #1b9e03;}
+  .php {width: 50%; background-color: #1b9e03;}
+  h1{
+     color:#fff;
+     font-family:serif;
+     text-align: center;
+     margin-top:40px;
+     font-family: 'Merienda One', cursive;
+  }
+  .sidebar nav li a{
+     text-decoration: none;
+     color: #fff;
+
+  }
+  .col-6 h2{
+   text-align:center;
+    color:#fff;
+    font-size:25pt;
+    font-family: 'Merienda One', cursive;
+    margin-top:50px;
+ }
+
+  .col-1 h2{
+    text-align:center;
+     color:#fff;
+     font-size:25pt;
+     font-family: 'Merienda One', cursive;
+     margin-top:50px;
+  }
+  .col-4 h2{
+    text-align:center;
+     color:#fff;
+     font-size:25pt;
+     font-family: 'Merienda One', cursive;
+     margin-top:50px;
+  }
+  .col-3 h2{
+    text-align:center;
+     color:#fff;
+     font-size:25pt;
+     font-family: 'Merienda One', cursive;
+     margin-top:50px;
+  }
+  .row{
+     display:flex;
+     align-items:center;
+     flex-wrap:wrap;
+     justify-content:space-round;
+  }
+  .pi{
+     font-size:12pt;
+
+     text-align: center;
+     font-family: 'Merienda One', cursive;
+
+
+  }
+  .col-6 .pii{
+     font-size:13pt;
+     font-family: 'Merienda One', cursive;
+     text-align:center;
+  }
+  .col-2 h2{
+    text-align:center;
+     color:#fff;
+     font-size:25pt;
+     font-family: 'Merienda One', cursive;
+     margin-top:50px;
+  }
+  .col-5 h2{
+    text-align:center;
+     color:#fff;
+     font-size:25pt;
+     font-family: 'Merienda One', cursive;
+     margin-top:50px;
+  }
+  .col-6 .bu{
+
+     margin-top:20px;
+     width:150px;
+     height:50px;
+     border-radius:10px;
+     background-color:#e75480;
+     border:none;
+
+  }
+  .col-6 .bu a{
+     text-decoration:none;
+     color:white;
+     font-size:15pt;
+
+  }
+  @media only screen and (max-width: 480px){
+     nav ul{
+         position:absolute;
+         top:30px;
+         left:0;
+         position:absolute ;
+         width:180px;
+         height:600px;
+       background-color: rgba(204, 198, 198, 0.788);
+         overflow: hidden;
+         transition: max-height 0.5s;
+  }
+     nav ul li{
+         display:block;
+         margin-right: 50px;
+         margin-top:80px;
+         margin-bottom: 10px;
+         text-align: center;
+         padding:20px;
+     }
+     nav ul li a{
+      position: relative;
+      text-decoration: none;
+      color:#fff;
+      font-size: 1rem;
+      padding: 1.5rem;
+      transition: .5s;
+      background: #e66060;
+      text-align: center;
+      padding: 1rem 3rem;
+      border-radius: 3rem;
+      box-shadow: 0 0 1rem rgba(0, 0, 0, .5);
+      font-family: 'Merienda One', cursive;
+     }
+
+     .menu-icon{
+         display:inline-block;
+         cursor: pointer;
+         top:0;
+         left:0;
+         position:absolute ;
+     }
+
+
+  .col-1{
+  margin:20px auto;
+  flex-basis: 100%;
+  text-align:center;}
+
+
+  .col-2{
+  margin:20px auto;
+  flex-basis: 100%;
+  text-align:center;}
+
+  .col-3{
+  margin:20px auto;
+  flex-basis: 100%;
+  text-align:center;}
+  .col-4{
+  margin:20px auto;
+  flex-basis: 100%;
+  text-align:center;}
+
+  .col-5{
+
+  margin:20px auto;
+  flex-basis: 100%;
+  text-align:center;}
+  .col-6{
+
+  margin:20px auto;
+  text-align:center;
+  flex-basis: 100%;
+   }
+  .row{
+     text-align: center;
+  }}

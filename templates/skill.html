@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel = "stylesheet" href="{{url_for('static', filename='skill.css')}}">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+
+
+
+<div class="container">
+        <div class="sidebar">
+            <nav>
+                <ul id="MenuItems">
+                  <li><a href="{{url_for('home')}}">Home</a></li>
+                  <li><a href="{{url_for('skill')}}">Skills</a></li>
+                  <li><a href="{{url_for('contact')}}">Contact</a></li>
+                  <li><a href="{{url_for('services')}}">Services</a></li>
+
+                </ul>
+            </nav>
+
+        </div>
+        <img src="https://dl.dropbox.com/s/b06lgvknqh36g4f/588a64e0d06f6719692a2d10-1.png" class="menu-icon" onclick="menutoggle()" width="32px">
+     <div class = "container1">
+       <h1>MY SKILLS</h1>
+       <p>HTML</p>
+<div class="container1">
+  <div class="skills html"></div>
+</div>
+
+<p>CSS</p>
+<div class="container1">
+  <div class="skills css"></div>
+</div>
+
+<p>JavaScript</p>
+<div class="container1">
+  <div class="skills js"></div>
+</div>
+
+<p>Python</p>
+<div class="container1">
+  <div class="skills php"></div>
+</div>
+
+     </div>
+
+     <div class="Projects">
+         <h1>MY PROJECTS</h1>
+         <div class="row">
+         <div class="col-1">
+           <h2>To-Do List</h2>
+             <img src="https://dl.dropbox.com/s/pbxbbliauf8fm7e/img_20220113_132723.jpg">
+
+              <p class="pi">To-Do List is a project built using javascript, specially built to keep track of errands or tasks that need to be done. This project will be like a task keeper where the user would be able to enter the tasks that they need to do. Once they are done with their tasks they can also remove them from the list.</p>
+         </div>
+         <div class="col-2">
+             <h2>Coin Collector</h2>
+             <img src="https://dl.dropbox.com/s/lwyawoiil68ukt3/img_20220124_130105.jpg">
+             <p class="pi">
+                 Coin Collector allows the user to collect the coin. It is built using javascript ,html and css.
+             </p>
+         </div>
+
+         <div class="col-3">
+             <h2>Random Password Generator</h2>
+             <img src="https://dl.dropbox.com/s/72rsf1i5d5xji9e/img_20220124_131235.jpg">
+              <p class="pi">
+                A random password generator is a program that takes input from a random or pseudo-random number generator and automatically generates a password.Built using Python
+             </p>
+
+         </div>
+         <div class="col-4">
+             <h2>Netflix Clone</h2>
+             <img src="https://dl.dropbox.com/s/a8ur2uwxg0h9tai/img_20220124_133512.jpg">
+              <p class="pi">
+                Netflix is a subscription-based streaming service that allows members to watch TV shows and movies. This is Netflix clone built using Html, Css and Javascript
+             </p>
+         </div>
+         <div class="col-5">
+          <h2>UI/UX Design</h2>
+          <img src="https://dl.dropbox.com/s/w06s8cexlzf9qdf/img_20220124_132958.jpg">
+          <p class="pi">
+          This is a food website landing page. Built using Tool Figma
+          </p>
+      </div>
+         <div class="col-6">
+
+        <h2>Foodie Lane</h2>
+         <img src="https://dl.dropbox.com/s/abrr8n9ge5a9zso/img_20220125_140604.jpg">
+
+         <p class="pii">
+          Foodie lane is a website. It is a type of food website. The website is built using html css and javascript. Click on the button below to visit the website directly.
+        </p>
+        <button class="bu"><a href="https://foodielane.web.app/">Foodie Lane</a></button>
+         </div>
+         </div>
+     </div>
+
+     <div class="space">
+        <p>Thanks For visiting</p>
+     </div>
+     <div class="footer">
+      <h5>Follow <a href="https://instagram.com/kharshita_590?utm_medium=copy_link"> <i class="fab fa-instagram"></i></a></h5>
+      <h5>2022 Copyright Harshita Kumari</h5>
+     </div>
+
+
+
+<script>
+         var MenuItems= document.getElementById("MenuItems");
+      MenuItems.style.maxHeight= "0px" ;
+      function menutoggle(){
+          if(MenuItems.style.maxHeight == "0px")
+          {
+              MenuItems.style.maxHeight = "800px";
+
+
+          }
+          else {
+              MenuItems.style.maxHeight = "0px";
+          }
+      }
+         </script>
+
+</body>
+</html>

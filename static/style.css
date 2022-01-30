@@ -1,0 +1,302 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background:url("https://dl.dropbox.com/s/0v5ftvv2q0ygc38/1184372.jpg");
+     font-family: 'Merienda One', cursive;
+
+}
+.sidebar{
+
+    width:15vw;
+    font-family:'Firan Sans' , sans-serif;
+    height: 100vh;
+    background-color: rgba(204, 198, 198, 0.788);
+    margin-left: -140px;
+}
+.main{
+
+    width:90vw;
+}
+.container{
+    display: flex;
+
+}
+
+.sidebar nav{
+    padding:60px;
+
+}
+h3{
+    color: #000;
+    text-align: center;
+    font-size:13pt;
+
+    font-family: 'Merienda One', cursive;
+   }
+.sidebar nav li{
+    list-style: none;
+    font-size:25px;
+    padding:33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Merienda One', cursive;
+    margin-left:-40px;
+}
+.info{
+
+    height:78vh;
+    width:80vw;
+    margin:120px auto;
+    display: flex;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left:100px;
+    margin-top: -100px;
+    font-family:'Source Code Pro', monospace;
+}
+.hello{
+    font-size:70px;
+   font-family:poppins;
+    font-weight: 400;
+    color:white;
+}
+.name{
+     color:white;
+    font-size:50px;
+    font-weight:500;
+    font-family: 'Firan Sans' , sans-serif;
+}
+.about{
+    font-size: 30px;
+    font-family: 'Firan Sans' , sans-serif;
+    color:white;
+}
+
+.aboutmore{
+    font-size:18px;
+    margin-top: 13px;
+    font-family: poppins;
+    color:white;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Merienda One', cursive;
+}
+h5{
+    color:#000;
+}
+.buttons button{
+    padding:9px 14px;
+    border-radius:22px;
+    color:white;
+    font-family: poppins;
+    background-color:#FF8C00;
+    font-weight:bold;
+    font-size:18px;
+    margin:10px 3px;
+    border: none;
+}
+.buttons button:hover{
+    background-color:#fff;
+    color:rgb(49, 117, 243);
+    border: none;
+
+}
+.contactform {
+    font-family:'Firan Sans' , sans-serif;
+    margin-top: 100px;
+    margin-left: 50px;
+    color: #fff;
+}
+.contactform h1{
+    font-family: poppins;
+    text-align: center;
+    color: #fff;
+}
+.skill1{
+    width:150px;
+    height:9px;
+    background-color:red;
+}
+.skill2{
+    width:300px;
+    height:9px;
+    background-color:red;
+}
+.skill3{
+    width:320px;
+    height:9px;
+    background-color:red;
+}
+.skill4{
+    width:150px;
+    height:9px;
+    background-color:red;
+}
+.skillcontainer{
+    padding:60px;
+    margin-left: -150px;
+}
+.skillitem{
+       display: flex;
+       align-items: center;
+}
+.menu-icon{
+    width:30px;
+    margin-left:20px;
+    display:none;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:gray;
+    font-family: 'Merienda One', cursive;
+   text-align: center;
+
+  background-color:rgba(204,208, 198, 0.788);
+}
+
+h4{
+    font-size:10pt;
+    color:#000;
+     font-family: 'Merienda One', cursive;
+    margin-top:13px;
+}
+
+@media only screen and (max-width: 480px){
+    nav ul{
+        position:absolute;
+        top:30px;
+        left:0;
+        height:600px;
+        width:200px;
+        background-color:rgba(204, 208, 208, 0.888);
+        overflow: hidden;
+        transition: max-height 0.5s;
+
+}
+    nav ul li{
+        display:block;
+        margin-right: 50px;
+        margin-top:40px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-family:poppins;
+    }
+    nav ul li a{
+       position: relative;
+    text-decoration: none;
+    color:#fff;
+    font-size: 1rem;
+    padding: 1.5rem;
+    transition: .5s;
+    background: #e66060;
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .5);
+
+    }
+    .menu-icon{
+        display:inline-block;
+         cursor: pointer;
+         top:0;
+         left:0;
+         position:absolute ;
+         width:40px;
+
+    }
+}
+@media only screen and (max-width: 600px){
+    .hello{
+        font-size:65px;
+
+        font-weight: 400;
+        margin-top:450px;
+        margin-left:-5px;
+         font-family: 'Merienda One', cursive;
+        word-spacing:-2px;
+
+    }
+
+    .name{
+         font-family: 'Merienda One', cursive;
+        font-size:55px;
+        font-weight:500;
+
+        margin-left:20px;
+        line-height:60px;
+        margin-top:30px;
+
+
+    }
+    .about{
+        font-size:35px;
+        margin-left:40px;
+        margin-top:40px;
+        line-height:45px;
+        font-family: 'Merienda One', cursive;
+    }
+    .devinfo{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+       align-items: center;
+
+        font-family:monospace;
+
+    }
+
+    .sidebar{
+        background-color:#000;
+    }
+    .aboutmore{
+        font-size:20px;
+        margin-top:55px;
+        margin-left:30px;
+
+         font-family: 'Merienda One', cursive
+    }
+    .buttons button{
+        padding:8px 18px;
+        border-radius:6px;
+        color:#fff;
+        font-family: poppins;
+        background-color:#FF8C00;
+        font-weight:300;
+        font-size:18px;
+        margin:40px 3px;
+        margin-left: 10px;
+        border:none;
+    }
+    h5{
+        color:white;
+        position:absolute;
+        font-size:10pt;
+        margin:10px 350px;
+
+    }
+    .contactform {
+    font-family:'Firan Sans' , sans-serif;
+    margin-top: 120px;
+    margin-left: 100px;
+    color: #fff;
+    width:320px;
+}
+.contactform h1{
+    font-family: 'Merienda One', cursive;
+    text-align: center;
+    color: #fff;
+    margin-top:150px;
+}
+
+}
