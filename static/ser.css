@@ -155,14 +155,14 @@ a{
     }
 
      .buttons button{
-        padding:8px 35px;
+
         border-radius:6px;
         color:#fff;
         font-family: poppins;
         background-color:#FF8C00;
         font-weight:300;
         font-size:18px;
-        margin:40px 3px;
+        margin:40px 0px;
         margin-left:170px;
         border:none;
     }
@@ -183,7 +183,7 @@ a{
          font-family: 'Merienda One', cursive;
     }
     a{
-       margin-left: 100px;
+       margin-left: 20px;
     }
 
 }
